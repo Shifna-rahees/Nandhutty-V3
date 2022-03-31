@@ -10,7 +10,7 @@ let handler = async (m, { conn, text, usedPrefix, isAdmin, isOwner }) => {
 *${usedPrefix}upvote* - to agree
 *${usedPrefix}devote* - to disagree
 *${usedPrefix}cekvote* - to check the vote
-*${usedPrefix}hapusvote* - to delete votes`, 'ɴᴀɴᴅʜᴜᴛᴛʏ ᴠ3', 'Upvote', `${usedPrefix}upvote`, 'Devote', `${usedPrefix}devote`, m)
+*${usedPrefix}hapusvote* - to delete votes`, '𝙍𝘼𝙃𝙀𝙀𝙎', 'Upvote', `${usedPrefix}upvote`, 'Devote', `${usedPrefix}devote`, m)
     conn.vote[id] = [
         text,
         [],
